@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-02 23:05:11
+ * @LastEditTime: 2020-05-02 23:09:40
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -11,7 +11,7 @@
 ### 目录
 
 #### leetcode  
-[L0001_TwoSum](./code/L0001_TwoSum.js)
+[L0001_TwoSum](./problems/L0001_TwoSum.md)
 
 #### myself
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
