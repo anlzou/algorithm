@@ -2,8 +2,8 @@
  * @Date        : 2020-05-02 20:16:19
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-02 21:38:47
- * @FilePath    : \algorithm\problems\0001.TwoSum.md
+ * @LastEditTime: 2020-05-02 22:28:54
+ * @FilePath    : \algorithm\problems\L0001.TwoSum.md
  * @Describe    : 
  -->
 ## 题目地址
@@ -38,7 +38,7 @@
 
 ## 代码
 
-- JavaScript：[TwoSum_0001.js](.//../code/TwoSum_0001.js)
+- JavaScript：[L0001_TwoSum.js](./../code/L0001_TwoSum.js)
 
 ## 复杂度分析
 
