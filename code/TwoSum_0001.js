@@ -2,8 +2,8 @@
  * @Date        : 2020-05-02 20:47:27
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-02 20:48:52
- * @FilePath    : \algorithm\code\TwoSum.js
+ * @LastEditTime: 2020-05-02 21:40:05
+ * @FilePath    : \algorithm\code\TwoSum_0001.js
  * @Describe    :
  */
 
