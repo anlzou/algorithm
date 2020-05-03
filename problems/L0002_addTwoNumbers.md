@@ -2,7 +2,7 @@
  * @Date        : 2020-05-03 21:18:46
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-03 21:36:33
+ * @LastEditTime: 2020-05-03 21:49:29
  * @FilePath    : \algorithm\problems\L0002_addTwoNumbers.md
  * @Describe    : 
  -->
@@ -36,7 +36,8 @@ Explanation: 342 + 465 = 807.
 #1
 设立一个表示进位的变量carried，建立一个新链表， 把输入的两个链表从头往后同时处理，每两个相加，将结果加上carried后的值作为一个新节点到新链表后面。
 
-#2[LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation/blob/master/notes/LeetCode%E7%AC%AC2%E5%8F%B7%E9%97%AE%E9%A2%98%EF%BC%9A%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md)
+#2
+[LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation/blob/master/notes/LeetCode%E7%AC%AC2%E5%8F%B7%E9%97%AE%E9%A2%98%EF%BC%9A%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md)
 
 ## 关键点
 - 链表这种数据结构的特点和使用
