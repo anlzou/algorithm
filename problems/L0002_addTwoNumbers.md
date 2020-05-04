@@ -44,7 +44,9 @@ Explanation: 342 + 465 = 807.
 - 用一个carried变量来实现进位的功能，每次相加之后计算carried，并用于下一位的计算
 
 ## 代码
-
+#1 [L0002_addTwoNumbers.cpp](../code/L0002_addTwoNumbers.cpp)
+#2 [L0002_addTwoNumbers_2.cpp](../code/L0002_addTwoNumbers_2.cpp)
+#3 [L0002_addTwoNumbers.js](../code/L0002_addTwoNumbers.js)
 
 ## 复杂度分析
 
