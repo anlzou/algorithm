@@ -40,8 +40,9 @@
 
 ## 代码
 
-- JavaScript：[L0001_TwoSum.js](./../code/L0001_TwoSum.js)
-- Java：[L0001_TwoSum.java](./../code/L0001_TwoSum.java)
+#1 [L0001_TwoSum.js](./../code/L0001_TwoSum.js)
+
+#2 [L0001_TwoSum.java](./../code/L0001_TwoSum.java)
 
 ## 复杂度分析
 #JavaScript、Java

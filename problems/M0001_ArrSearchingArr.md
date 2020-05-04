@@ -43,7 +43,7 @@ false
 ...
 
 ## 代码
-JavaScript：[M0001_ArrSearchingArr.js](./../code/M0001_ArrSearchingArr.js)
+[M0001_ArrSearchingArr.js](./../code/M0001_ArrSearchingArr.js)
 
 ## 复杂度分析
 

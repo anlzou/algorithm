@@ -37,7 +37,7 @@ $16 [2,5,6]		$17 [3,4,5]		$18 [3,4,6]		$19 [3,5,6]		$20 [4,5,6]
 ...
 
 ## 代码
-JavaScript：[M0002_ArrGetM2Comb.js](./../code/M0002_ArrGetM2Comb.js)
+[M0002_ArrGetM2Comb.js](./../code/M0002_ArrGetM2Comb.js)
 
 ## 复杂度分析
 
