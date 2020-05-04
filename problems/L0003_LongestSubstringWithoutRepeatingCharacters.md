@@ -54,9 +54,13 @@
 - 用 res 去记录目前位置最大的长度，每次滑动窗口更新就去决定是否需要更新 res
 
 ## 代码
+#1 [L0003_LongestSubstringWithoutRepeatingCharacters.cpp](../code/L0003_LongestSubstringWithoutRepeatingCharacters.cpp)
 
+#2 [L0003_LongestSubstringWithoutRepeatingCharacters.js](../code/L0003_LongestSubstringWithoutRepeatingCharacters.js)
+
+#3 [L0003_LongestSubstringWithoutRepeatingCharacters.py](../code/L0003_LongestSubstringWithoutRepeatingCharacters.py)
 
 ## 复杂度分析
 
-- 时间复杂度：O()
-- 空间复杂度：O()
+- 时间复杂度：O(len(s))
+- 空间复杂度：O(len(charset))
