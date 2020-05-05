@@ -2,8 +2,8 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-02 20:43:01
- * @FilePath    : \algorithm\templates\problems.md
+ * @LastEditTime: 2020-05-05 21:14:56
+ * @FilePath    : \algorithm\problems\L0003_LongestSubstringWithoutRepeatingCharacters.md
  * @Describe    : 
  -->
 ## 题目地址
@@ -64,3 +64,23 @@
 
 - 时间复杂度：O(len(s))
 - 空间复杂度：O(len(charset))
+
+# 延申
+问题:
+```
+给定一个字符串，请你找出其中不含有重复字符的最长子串。
+```
+示例：
+```
+输入：abbcdefgegcsgcasse
+输出：bcdefg
+```
+## 思路
+[最长不重复子串 C++](https://blog.csdn.net/CSU_GUO_LIANG/article/details/81177271)
+
+## 实现
+[L0003_LongestSubstring.cpp](../code/L0003_LongestSubstring.cpp)
+
+## 复杂度分析
+- 时间复杂度：O(n)
+- 空间复杂度 O( )
