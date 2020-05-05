@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-05 21:14:56
+ * @LastEditTime: 2020-05-05 21:27:01
  * @FilePath    : \algorithm\problems\L0003_LongestSubstringWithoutRepeatingCharacters.md
  * @Describe    : 
  -->
@@ -83,4 +83,4 @@
 
 ## 复杂度分析
 - 时间复杂度：O(n)
-- 空间复杂度 O( )
+- 空间复杂度：O()
