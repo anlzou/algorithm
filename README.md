@@ -17,6 +17,8 @@
 
 [L0003_LongestSubstringWithoutRepeatingCharacters](./problems/L0003_LongestSubstringWithoutRepeatingCharacters.md)
 
+[L0004_MedianOf2SortedArrays](./problems/L0004_MedianOf2SortedArrays.md)
+
 #### myself
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
 
@@ -26,6 +28,9 @@
 
 --------------
 ### 算法参考地址：
+>[leetcode](https://github.com/wind-liang/leetcode)
+>>leetcode 顺序刷题，详细通俗题解，with JAVA https://leetcode.wang
+
 >[leetcode](https://github.com/azl397985856/leetcode)
 >>leetcode 题解，记录自己的 leetcode 解题之路。
 

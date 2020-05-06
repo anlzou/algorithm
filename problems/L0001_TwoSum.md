@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:16:19
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-02 23:19:26
+ * @LastEditTime: 2020-05-06 10:43:34
  * @FilePath    : \algorithm\problems\L0001_TwoSum.md
  * @Describe    : 
  -->
@@ -42,9 +42,6 @@
 
 #1 [L0001_TwoSum.js](./../code/L0001_TwoSum.js)
 
-#2 [L0001_TwoSum.java](./../code/L0001_TwoSum.java)
-
 ## 复杂度分析
-#JavaScript、Java
 - 时间复杂度：O(N)
 - 空间复杂度：O(N)
