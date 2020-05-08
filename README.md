@@ -26,6 +26,8 @@
 
 [M0003_Combination](./problems/M0003_Combination.md)
 
+[M0004_Knuth](./problems/M0004_Knuth.md)
+
 --------------
 ### 算法参考地址：
 >[leetcode](https://github.com/wind-liang/leetcode)
