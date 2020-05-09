@@ -14,8 +14,21 @@
 排序算法是《数据结构与算法》中最基本的算法之一。
 
 排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：<b>插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序</b>等。
-用一张图概括：     
-![sort.png](../resource/img/sort.png)
+用一张[表格](../resource/img/sort.png)概括：     
+
+| 排序算法     | Name          | 平均时间复杂度 | 最好情况     | 最坏情况     | 空间复杂度 | 排序方式  | 稳定性 |
+| ------------ | ------------- | -------------- | ------------ | ------------ | ---------- | --------- | ------ |
+| **冒泡排序** | BubbleSort    | O(n^2)         | O(n)         | O(n^2)       | O(1)       | In-place  | 稳定   |
+| **选择排序** | SelectionSort | O(n^2)         | O(n^2)       | O(n^2)       | O(1)       | In-place  | 不稳定 |
+| **插入排序** | InsertSort    | O(n^2)         | O(n)         | O(n^2)       | O(1)       | In-place  | 稳定   |
+| **希尔排序** | ShellSort     | O(n log n)     | O(n log^2 n) | O(n log^2 n) | O(1)       | In-place  | 不稳定 |
+| **归并排序** | MergeSort     | O(n log n)     | O(n log n)   | O(n log n)   | O(n)       | Out-place | 稳定   |
+| **快速排序** | QuickSort     | O(n log n)     | O(n log n)   | O(n^2)       | O(n log n) | In-place  | 不稳定 |
+| **堆排序**   | HeapSort      | O(n log n)     | O(n log n)   | O(n log n)   | O(1)       | In-place  | 不稳定 |
+| **计数排序** | CountingSort  | O(n + k)       | O(n + k)     | O(n + k)     | O(k)       | Out-place | 稳定   |
+| **桶排序**   | BucketSort    | O(n + k)       | O(n + k)     | O(n^2)       | O(n + k)   | Out-place | 稳定   |
+| **基数排序** | RadixSort     | O(n × k)       | O(n × k)     | O(n × k)     | O(n + k)   | Out-place | 稳定   |
+
 #### 关于时间复杂度：
 平方阶 (O(n^2)) 排序 各类简单排序：直接插入、直接选择和冒泡排序。
 
