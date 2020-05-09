@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-03 21:30:58
+ * @LastEditTime: 2020-05-10 07:53:01
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -29,6 +29,8 @@
 [M0004_Knuth](./problems/M0004_Knuth.md)
 
 [M0005_TenBaseSort](./problems/M0005_TenBaseSort.md)
+
+[M0006_SleepSort](./problems/M0006_SleepSort.md)
 
 --------------
 ### 算法参考地址：

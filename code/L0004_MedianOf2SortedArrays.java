@@ -1,3 +1,13 @@
+/**
+ * @Date        : 2020-05-06 09:06:28
+ * @LastEditors : anlzou
+ * @Github      : https://github.com/anlzou
+ * @LastEditTime: 2020-05-10 07:49:21
+ * @FilePath    : \algorithm\code\L0004_MedianOf2SortedArrays.java
+ * @Describe    : 
+ */
+package code;
+
 public class L0004_MedianOf2SortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n = nums1.length;
