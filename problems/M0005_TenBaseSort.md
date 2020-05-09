@@ -18,21 +18,21 @@
 
 | 排序算法     | Name          | 平均时间复杂度 | 最好情况     | 最坏情况     | 空间复杂度 | 排序方式  | 稳定性 |
 | ------------ | ------------- | -------------- | ------------ | ------------ | ---------- | --------- | ------ |
-| **冒泡排序** | BubbleSort    | O(n^2)         | O(n)         | O(n^2)       | O(1)       | In-place  | 稳定   |
-| **选择排序** | SelectionSort | O(n^2)         | O(n^2)       | O(n^2)       | O(1)       | In-place  | 不稳定 |
-| **插入排序** | InsertSort    | O(n^2)         | O(n)         | O(n^2)       | O(1)       | In-place  | 稳定   |
-| **希尔排序** | ShellSort     | O(n log n)     | O(n log^2 n) | O(n log^2 n) | O(1)       | In-place  | 不稳定 |
+| **冒泡排序** | BubbleSort    | O(n²)         | O(n)         | O(n²)       | O(1)       | In-place  | 稳定   |
+| **选择排序** | SelectionSort | O(n²)         | O(n²)       | O(n²)       | O(1)       | In-place  | 不稳定 |
+| **插入排序** | InsertSort    | O(n²)         | O(n)         | O(n^2)       | O(1)       | In-place  | 稳定   |
+| **希尔排序** | ShellSort     | O(n log n)     | O(n log² n) | O(n log² n) | O(1)       | In-place  | 不稳定 |
 | **归并排序** | MergeSort     | O(n log n)     | O(n log n)   | O(n log n)   | O(n)       | Out-place | 稳定   |
-| **快速排序** | QuickSort     | O(n log n)     | O(n log n)   | O(n^2)       | O(n log n) | In-place  | 不稳定 |
+| **快速排序** | QuickSort     | O(n log n)     | O(n log n)   | O(n²)       | O(n log n) | In-place  | 不稳定 |
 | **堆排序**   | HeapSort      | O(n log n)     | O(n log n)   | O(n log n)   | O(1)       | In-place  | 不稳定 |
 | **计数排序** | CountingSort  | O(n + k)       | O(n + k)     | O(n + k)     | O(k)       | Out-place | 稳定   |
-| **桶排序**   | BucketSort    | O(n + k)       | O(n + k)     | O(n^2)       | O(n + k)   | Out-place | 稳定   |
+| **桶排序**   | BucketSort    | O(n + k)       | O(n + k)     | O(n²)       | O(n + k)   | Out-place | 稳定   |
 | **基数排序** | RadixSort     | O(n × k)       | O(n × k)     | O(n × k)     | O(n + k)   | Out-place | 稳定   |
 
 #### 关于时间复杂度：
-平方阶 (O(n^2)) 排序 各类简单排序：直接插入、直接选择和冒泡排序。
+平方阶 (O(n²)) 排序 各类简单排序：直接插入、直接选择和冒泡排序。
 
-线性对数阶 (O(nlog2n)) 排序 快速排序、堆排序和归并排序。
+线性对数阶 (O(nlog²n)) 排序 快速排序、堆排序和归并排序。
 
 O(n1+§)) 排序，§ 是介于 0 和 1 之间的常数。 希尔排序。
 
@@ -76,6 +76,7 @@ Out-place：占用额外内存
 当输入的数据是反序时（写一个 for 循环反序输出数据不就行了，干嘛要用你冒泡排序呢，我是闲的吗）。
 
 ### #2 选择排序
+选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。
 > ##### 算法步骤
 1. 首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置
 
