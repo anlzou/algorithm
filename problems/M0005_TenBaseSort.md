@@ -20,10 +20,10 @@
 | ------------ | ------------- | -------------- | ------------ | ------------ | ---------- | --------- | ------ |
 | **冒泡排序** | BubbleSort    | O(n²)         | O(n)         | O(n²)       | O(1)       | In-place  | 稳定   |
 | **选择排序** | SelectionSort | O(n²)         | O(n²)       | O(n²)       | O(1)       | In-place  | 不稳定 |
-| **插入排序** | InsertSort    | O(n²)         | O(n)         | O(n^2)       | O(1)       | In-place  | 稳定   |
+| **插入排序** | InsertSort    | O(n²)         | O(n)         | O(n²)       | O(1)       | In-place  | 稳定   |
 | **希尔排序** | ShellSort     | O(n log n)     | O(n log² n) | O(n log² n) | O(1)       | In-place  | 不稳定 |
 | **归并排序** | MergeSort     | O(n log n)     | O(n log n)   | O(n log n)   | O(n)       | Out-place | 稳定   |
-| **快速排序** | QuickSort     | O(n log n)     | O(n log n)   | O(n²)       | O(n log n) | In-place  | 不稳定 |
+| **快速排序** | QuickSort     | O(n log n)     | O(n log n)   | O(n²)       | O(log n) | In-place  | 不稳定 |
 | **堆排序**   | HeapSort      | O(n log n)     | O(n log n)   | O(n log n)   | O(1)       | In-place  | 不稳定 |
 | **计数排序** | CountingSort  | O(n + k)       | O(n + k)     | O(n + k)     | O(k)       | Out-place | 稳定   |
 | **桶排序**   | BucketSort    | O(n + k)       | O(n + k)     | O(n²)       | O(n + k)   | Out-place | 稳定   |
