@@ -1,3 +1,14 @@
+/**
+ * @Date        : 2020-05-09 11:24:28
+ * @LastEditors : anlzou
+ * @Github      : https://github.com/anlzou
+ * @LastEditTime: 2020-05-10 08:16:09
+ * @FilePath    : \algorithm\code\M0005_TenBaseSort\SelectionSort.java
+ * @Describe    : 
+ */
+package code.M0005_TenBaseSort;
+import java.util.Arrays;
+
 public class SelectionSort implements IArraySort {
 
     @Override

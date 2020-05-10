@@ -1,3 +1,14 @@
+/**
+ * @Date        : 2020-05-09 11:14:49
+ * @LastEditors : anlzou
+ * @Github      : https://github.com/anlzou
+ * @LastEditTime: 2020-05-10 08:21:54
+ * @FilePath    : \algorithm\code\M0005_TenBaseSort\BubbleSort.java
+ * @Describe    : 
+ */
+package code.M0005_TenBaseSort;
+import java.util.Arrays;
+
 public class BubbleSort implements IArraySort {
 
     @Override
