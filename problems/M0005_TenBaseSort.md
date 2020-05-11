@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-11 08:44:56
+ * @LastEditTime: 2020-05-11 09:06:23
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -120,6 +120,38 @@ Shell Sort 存在争议。
 - [希尔排序的原理解析](https://baijiahao.baidu.com/s?id=1644158198885715432&wfr=spider&for=pc)
 - [面试官：手写一个希尔排序，并对其改进（Java代码实现）](https://baijiahao.baidu.com/s?id=1645338224617537073&wfr=spider&for=pc)
 
+### #5 归并排序
+
+归并排序（Merge sort）是建立在归并操作上的一种有效的排序算法。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。
+
+作为一种典型的分而治之思想的算法应用，归并排序的实现由两种方法：
+
+- 自上而下的递归（所有递归的方法都可以用迭代重写，所以就有了第 2 种方法）；
+
+- 自下而上的迭代；
+
+在《数据结构与算法 JavaScript 描述》中，作者给出了自下而上的迭代方法。但是对于递归法，作者却认为：
+
+*However, it is not possible to do so in JavaScript, as the recursion goes too deep for the language to handle.*
+
+*然而，在 JavaScript 中这种方式不太可行，因为这个算法的递归深度对它来讲太深了。*
+
+按照老师上课说过，递归算法太深反而效率更低，原因在于内存的开销太大。
+
+和选择排序一样，归并排序的性能不受输入数据的影响，但表现比选择排序好的多，因为始终都是 O(nlogn) 的时间复杂度。代价是需要额外的内存空间。
+
+> #### 算法步骤
+
+1. 申请空间，使其大小为两个已经排序序列之和，该空间用来存放合并后的序列；
+
+2. 设定两个指针，最初位置分别为两个已经排序序列的起始位置；
+
+3. 比较两个指针所指向的元素，选择相对小的元素放入到合并空间，并移动指针到下一位置；
+
+4. 重复步骤 3 直到某一指针达到序列尾；
+
+5. 将另一序列剩下的所有元素直接复制到合并序列尾。
+
 ## 代码
 >[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)  
 >[Test.java](../test/Test.java)
@@ -135,3 +167,6 @@ Shell Sort 存在争议。
 
 #4
 [ShellSort.java](../code/M0005_TenBaseSort/ShellSort.java)
+
+#5
+[MergeSort.java](../code/M0005_TenBaseSort/MergeSort.java)
