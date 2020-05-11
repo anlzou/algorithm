@@ -2,7 +2,7 @@
  * @Date : 2020-05-11 08:22:25
  * @LastEditors : anlzou
  * @Github : https://github.com/anlzou
- * @LastEditTime: 2020-05-11 08:26:25
+ * @LastEditTime: 2020-05-11 08:49:19
  * @FilePath    : \algorithm\code\M0005_TenBaseSort\ShellSort.java
  * @Describe :
  */
@@ -33,11 +33,21 @@ public class ShellSort implements IArraySort {
             }
             gap = (int) Math.floor(gap / 3);
         }
-
         return arr;
     }
 
-    // 第二种写法
+    // 第二种写法，是第一种的未优化版
+    /**
+     * Hibbard增量和Sedgewick增量。 Hibbard的增量序列如下： 1，3，7，15...... 通项公式 2^k-1
+     * 利用此种增量方式的希尔排序，最坏时间复杂度是O（n^(3/2)）
+     * 
+     * Sedgewick的增量序列如下： 1, 5, 19, 41, 109...... 通项公式 9*4^k - 9*2^k + 1 或者 4^k -
+     * 3*2^k + 1 利用此种增量方式的希尔排序，最坏时间复杂度是O（n^(4/3)）
+     * 
+     * 关于这两种增量方式的时间复杂度，有些需要很复杂的数学证明，有些是人们的大致猜想，大家暂时不用纠结。
+     * 
+     * @param array
+     */
     public static void sort2(int[] array) {// 希尔排序的增量
         int d = array.length;
         while (d > 1) { // 使用希尔增量的方式，即每次折半

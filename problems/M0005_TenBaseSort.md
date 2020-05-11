@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-11 08:36:17
+ * @LastEditTime: 2020-05-11 08:44:56
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -118,6 +118,7 @@ Out-place：占用额外内存
 > #### 其它思路
 Shell Sort 存在争议。
 - [希尔排序的原理解析](https://baijiahao.baidu.com/s?id=1644158198885715432&wfr=spider&for=pc)
+- [面试官：手写一个希尔排序，并对其改进（Java代码实现）](https://baijiahao.baidu.com/s?id=1645338224617537073&wfr=spider&for=pc)
 
 ## 代码
 >[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)  
