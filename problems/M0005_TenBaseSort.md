@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-11 08:32:39
+ * @LastEditTime: 2020-05-11 08:36:17
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -120,7 +120,8 @@ Shell Sort 存在争议。
 - [希尔排序的原理解析](https://baijiahao.baidu.com/s?id=1644158198885715432&wfr=spider&for=pc)
 
 ## 代码
->[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)
+>[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)  
+>[Test.java](../test/Test.java)
 
 #1 
 [BubbleSort.java](../code/M0005_TenBaseSort/BubbleSort.java)
