@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-10 08:37:35
+ * @LastEditTime: 2020-05-11 08:32:39
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -16,18 +16,18 @@
 排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：<b>插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序</b>等。
 用一张[表格](../resource/img/sort.png)概括：     
 
-| 排序算法     | Name          | 平均时间复杂度 | 最好情况     | 最坏情况     | 空间复杂度 | 排序方式  | 稳定性 |
-| ------------ | ------------- | -------------- | ------------ | ------------ | ---------- | --------- | ------ |
-| **冒泡排序** | BubbleSort    | O(n²)         | O(n)         | O(n²)       | O(1)       | In-place  | 稳定   |
-| **选择排序** | SelectionSort | O(n²)         | O(n²)       | O(n²)       | O(1)       | In-place  | 不稳定 |
-| **插入排序** | InsertSort    | O(n²)         | O(n)         | O(n²)       | O(1)       | In-place  | 稳定   |
+| 排序算法     | Name          | 平均时间复杂度 | 最好情况    | 最坏情况    | 空间复杂度 | 排序方式  | 稳定性 |
+| ------------ | ------------- | -------------- | ----------- | ----------- | ---------- | --------- | ------ |
+| **冒泡排序** | BubbleSort    | O(n²)          | O(n)        | O(n²)       | O(1)       | In-place  | 稳定   |
+| **选择排序** | SelectionSort | O(n²)          | O(n²)       | O(n²)       | O(1)       | In-place  | 不稳定 |
+| **插入排序** | InsertSort    | O(n²)          | O(n)        | O(n²)       | O(1)       | In-place  | 稳定   |
 | **希尔排序** | ShellSort     | O(n log n)     | O(n log² n) | O(n log² n) | O(1)       | In-place  | 不稳定 |
-| **归并排序** | MergeSort     | O(n log n)     | O(n log n)   | O(n log n)   | O(n)       | Out-place | 稳定   |
-| **快速排序** | QuickSort     | O(n log n)     | O(n log n)   | O(n²)       | O(log n) | In-place  | 不稳定 |
-| **堆排序**   | HeapSort      | O(n log n)     | O(n log n)   | O(n log n)   | O(1)       | In-place  | 不稳定 |
-| **计数排序** | CountingSort  | O(n + k)       | O(n + k)     | O(n + k)     | O(k)       | Out-place | 稳定   |
-| **桶排序**   | BucketSort    | O(n + k)       | O(n + k)     | O(n²)       | O(n + k)   | Out-place | 稳定   |
-| **基数排序** | RadixSort     | O(n × k)       | O(n × k)     | O(n × k)     | O(n + k)   | Out-place | 稳定   |
+| **归并排序** | MergeSort     | O(n log n)     | O(n log n)  | O(n log n)  | O(n)       | Out-place | 稳定   |
+| **快速排序** | QuickSort     | O(n log n)     | O(n log n)  | O(n²)       | O(log n)   | In-place  | 不稳定 |
+| **堆排序**   | HeapSort      | O(n log n)     | O(n log n)  | O(n log n)  | O(1)       | In-place  | 不稳定 |
+| **计数排序** | CountingSort  | O(n + k)       | O(n + k)    | O(n + k)    | O(k)       | Out-place | 稳定   |
+| **桶排序**   | BucketSort    | O(n + k)       | O(n + k)    | O(n²)       | O(n + k)   | Out-place | 稳定   |
+| **基数排序** | RadixSort     | O(n × k)       | O(n × k)    | O(n × k)    | O(n + k)   | Out-place | 稳定   |
 
 #### 关于时间复杂度：
 平方阶 (O(n²)) 排序 各类简单排序：直接插入、直接选择和冒泡排序。
@@ -96,6 +96,29 @@ Out-place：占用额外内存
 
 2. 从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）
 
+### #4 希尔排序
+
+希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。但希尔排序是非稳定排序算法。
+
+希尔排序是基于插入排序的以下两点性质而提出改进方法的：
+
+- 插入排序在对几乎已经排好序的数据操作时，效率高，即可以达到线性排序的效率；
+
+- 但插入排序一般来说是低效的，因为插入排序每次只能将数据移动一位；
+
+希尔排序的基本思想是：先将整个待排序的记录序列分割成为若干子序列分别进行直接插入排序，待整个序列中的记录“基本有序”时，再对全体记录进行依次直接插入排序。
+
+> ##### 算法步骤
+1. 选择一个增量序列 t1，t2，……，tk，其中 ti > tj, tk = 1；
+
+2. 按增量序列个数 k，对序列进行 k 趟排序；
+
+3. 每趟排序，根据对应的增量 ti，将待排序列分割成若干长度为 m 的子序列，分别对各子表进行直接插入排序。仅增量因子为 1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。
+
+> #### 其它思路
+Shell Sort 存在争议。
+- [希尔排序的原理解析](https://baijiahao.baidu.com/s?id=1644158198885715432&wfr=spider&for=pc)
+
 ## 代码
 >[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)
 
@@ -107,3 +130,6 @@ Out-place：占用额外内存
 
 #3
 [InsertSort.java](../code/M0005_TenBaseSort/InsertSort.java)
+
+#4
+[ShellSort.java](../code/M0005_TenBaseSort/ShellSort.java)

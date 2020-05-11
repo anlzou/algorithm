@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "test.Test",
+            "projectName": "algorithm_bb1f0e11"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - M0006_SleepSort",
             "request": "launch",
             "mainClass": "code.M0006_SleepSort",
