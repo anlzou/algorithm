@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-13 09:29:53
+ * @LastEditTime: 2020-05-14 07:58:03
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -26,7 +26,7 @@
 | **[快速排序](#6-%e5%bf%ab%e9%80%9f%e6%8e%92%e5%ba%8f)** | QuickSort                                         | O(n log n)     | O(n log n)  | O(n²)       | O(log n)   | In-place  | 不稳定 |
 | **[堆排序](#7-%e5%a0%86%e6%8e%92%e5%ba%8f)**            | HeapSort                                          | O(n log n)     | O(n log n)  | O(n log n)  | O(1)       | In-place  | 不稳定 |
 | **[计数排序](#8-%e8%ae%a1%e6%95%b0%e6%8e%92%e5%ba%8f)** | CountingSort                                      | O(n + k)       | O(n + k)    | O(n + k)    | O(k)       | Out-place | 稳定   |
-| **桶排序**                                              | BucketSort                                        | O(n + k)       | O(n + k)    | O(n²)       | O(n + k)   | Out-place | 稳定   |
+| **[桶排序](#9-%e6%a1%b6%e6%8e%92%e5%ba%8f)**            | BucketSort                                        | O(n + k)       | O(n + k)    | O(n²)       | O(n + k)   | Out-place | 稳定   |
 | **基数排序**                                            | RadixSort                                         | O(n × k)       | O(n × k)    | O(n × k)    | O(n + k)   | Out-place | 稳定   |
 
 #### 关于时间复杂度：
@@ -222,6 +222,36 @@ Shell Sort 存在争议。
 > #### 代码
 - [CountingSort.java](../code/M0005_TenBaseSort/CountingSort.java)
 
+### #9 桶排序
+桶排序是计数排序的升级版。它利用了函数的映射关系，高效与否的关键就在于这个映射函数的确定。为了使桶排序更加高效，我们需要做到这两点：
+
+1. 在额外空间充足的情况下，尽量增大桶的数量
+
+2. 使用的映射函数能够将输入的 N 个数据均匀的分配到 K 个桶中
+
+同时，对于桶中元素的排序，选择何种比较排序算法对于性能的影响至关重要。
+
+> #### 算法解析
+1. 什么时候最快
+
+   - 当输入的数据可以均匀的分配到每一个桶中。
+
+2. 什么时候最慢
+
+   - 当输入的数据被分配到了同一个桶中。
+
+> #### 其它思路
+- [算法1：最快最简单的排序——桶排序](https://www.cnblogs.com/bqwzx/p/11029264.html)
+
+第一眼看和计数排序并没有区别，这是简化版。
+
+- [排序算法（九）：桶排序](https://www.jianshu.com/p/204ed43aec0c)
+
+增加每个桶的容量范围，比如宽度为10，然后使用其它算法对每个桶内进行排序，这是升级版。
+
+> #### 代码
+[BucketSort.java](../code/M0005_TenBaseSort/BucketSort.java)
+
 ## 代码汇总
 >[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)  
 >[Test.java](../test/Test.java)
@@ -249,3 +279,6 @@ Shell Sort 存在争议。
 
 #8
 [CountingSort.java](../code/M0005_TenBaseSort/CountingSort.java)
+
+#9
+[BucketSort.java](../code/M0005_TenBaseSort/BucketSort.java)
