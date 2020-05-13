@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-13 08:43:45
+ * @LastEditTime: 2020-05-13 09:16:01
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -195,6 +195,9 @@ Shell Sort 存在争议。
 > #### 其它思路
 - [图解排序算法(三)之堆排序](https://www.cnblogs.com/chengxiao/p/6129630.html)
 
+### #8 计数排序
+计数排序的核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
+
 ## 代码
 >[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)  
 >[Test.java](../test/Test.java)
@@ -219,3 +222,6 @@ Shell Sort 存在争议。
 
 #7 
 [HeapSort.java](../code/M0005_TenBaseSort/HeapSort.java)
+
+#8
+[CountingSort.java](../code/M0005_TenBaseSort/CountingSort.java)
