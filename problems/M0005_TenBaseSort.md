@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-12 12:47:32
+ * @LastEditTime: 2020-05-13 08:36:58
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -173,6 +173,28 @@ Shell Sort 存在争议。
 > #### 其它思路
 - [百度百科](https://baike.baidu.com/item/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/369842?fromtitle=%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F&fromid=2084344&fr=aladdin)
 
+### #7 堆排序
+堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。堆排序可以说是一种利用堆的概念来排序的选择排序。分为两种方法：
+
+大顶堆：每个节点的值都大于或等于其子节点的值，在堆排序算法中用于升序排列；
+
+小顶堆：每个节点的值都小于或等于其子节点的值，在堆排序算法中用于降序排列；
+
+堆排序的平均时间复杂度为 <code>Ο(nlogn)</code>。
+
+> #### 算法步骤
+
+1. 创建一个堆 H[0……n-1]；
+
+2. 把堆首（最大值）和堆尾互换；
+
+3. 把堆的尺寸缩小 1，并调用 shift_down(0)，目的是把新的数组顶端数据调整到相应位置；
+
+4. 重复步骤 2，直到堆的尺寸为 1。
+
+> #### 其它思路
+- [图解排序算法(三)之堆排序](https://www.cnblogs.com/chengxiao/p/6129630.html)
+
 ## 代码
 >[interface IArraySort](../code/M0005_TenBaseSort/IArraySort.java)  
 >[Test.java](../test/Test.java)
@@ -194,3 +216,6 @@ Shell Sort 存在争议。
 
 #6
 [QuickSort.py](../code/M0005_TenBaseSort/QuickSort.py)
+
+#7 
+[HeapSort.java](../code/M0005_TenBaseSort/HeapSort.java)
