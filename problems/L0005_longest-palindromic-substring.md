@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-15 10:30:24
+ * @LastEditTime: 2020-05-15 15:06:38
  * @FilePath    : \algorithm\problems\L0005_longest-palindromic-substring.md
  * @Describe    : 
  -->
@@ -36,6 +36,7 @@
 回文串有两种形式，一种是奇回文，也就是回文中心是一个字符，比如aba。还有一种是偶回文，回文中心是两个字符之间，比如abba。这两种情况我们需要分开讨论。
 
 ## 关键点
+- 分治法
 - 奇回文
 - 偶回文
 
