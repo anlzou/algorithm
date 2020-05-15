@@ -2,7 +2,7 @@
 # @Date        : 2020-05-15 10:29:01
 # @LastEditors : anlzou
 # @Github      : https://github.com/anlzou
-# @LastEditTime: 2020-05-15 11:04:36
+# @LastEditTime: 2020-05-15 11:08:47
 # @FilePath    : \algorithm\code\L0005_LongestPalindromicSubstring.py
 # @Describe    :
 #
@@ -37,7 +37,7 @@ class Solution:
 
 if __name__ == "__main__":
     s1 = 'acddgabbad'
-    s2 = 'babad'
+    s2 = 'babadb'
     test = Solution()
     print(test.longestPalindrome(s1))
     print(test.longestPalindrome(s2))
