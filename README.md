@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-11 19:19:05
+ * @LastEditTime: 2020-05-15 10:30:58
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -18,6 +18,8 @@
 [L0003_LongestSubstringWithoutRepeatingCharacters](./problems/L0003_LongestSubstringWithoutRepeatingCharacters.md)
 
 [L0004_MedianOf2SortedArrays](./problems/L0004_MedianOf2SortedArrays.md)
+
+[L0005_longest-palindromic-substring](./problems/L0005_longest-palindromic-substring.md)
 
 #### myself
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
