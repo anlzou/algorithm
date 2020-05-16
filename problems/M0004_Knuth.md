@@ -2,8 +2,8 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-02 20:43:01
- * @FilePath    : \algorithm\templates\problems.md
+ * @LastEditTime: 2020-05-16 14:43:25
+ * @FilePath    : \algorithm\problems\M0004_Knuth.md
  * @Describe    : 
  -->
 ## 题目地址
@@ -33,7 +33,6 @@ for(int i = n - 1; i >= 0 ; i -- )
 
 ## 用处
 这个算法除了洗牌，还能怎么用？
-
 
 
 其实，在很多随机的地方，都能使用。比如，扫雷生成随机的盘面。我们可以把扫雷的二维盘面先逐行连接，看作是一维的。之后，把 k 颗雷依次放在开始的位置。

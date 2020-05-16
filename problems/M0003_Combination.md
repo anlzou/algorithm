@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-03 08:58:25
+ * @LastEditTime: 2020-05-16 14:40:16
  * @FilePath    : \algorithm\problems\M0003_Combination.md
  * @Describe    : 
  -->
@@ -43,11 +43,7 @@ $16 [2,5,6]		$17 [3,4,5]		$18 [3,4,6]		$19 [3,5,6]		$20 [4,5,6]
 
 
 ## 代码
-#1 [M0003_Combination1.cpp](./../code/M0003_Combination1.cpp)
-
-#2 [M0003_Combination2.cpp](./../code/M0003_Combination2.cpp)
-
-#3 [M0003_Combination3.cpp](./../code/M0003_Combination3.cpp)
+[M0003_Combination.cpp](./../code/M0003_Combination.cpp)
 
 ## 复杂度分析
 
