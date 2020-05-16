@@ -2,7 +2,7 @@
  * @Date        : 2020-05-03 21:18:46
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-03 21:49:29
+ * @LastEditTime: 2020-05-16 11:56:33
  * @FilePath    : \algorithm\problems\L0002_addTwoNumbers.md
  * @Describe    : 
  -->
@@ -45,8 +45,6 @@ Explanation: 342 + 465 = 807.
 
 ## 代码
 #1 [L0002_addTwoNumbers.cpp](../code/L0002_addTwoNumbers.cpp)
-
-#2 [L0002_addTwoNumbers_2.cpp](../code/L0002_addTwoNumbers_2.cpp)
 
 #3 [L0002_addTwoNumbers.js](../code/L0002_addTwoNumbers.js)
 
