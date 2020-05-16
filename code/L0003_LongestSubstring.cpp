@@ -1,3 +1,11 @@
+/***
+ * @Date        : 2020-05-05 18:49:57
+ * @LastEditors : anlzou
+ * @Github      : https://github.com/anlzou
+ * @LastEditTime: 2020-05-16 12:06:50
+ * @FilePath    : \algorithm\code\L0003_LongestSubstring.cpp
+ * @Describe    :
+ */
 
 /***
  * @Date        : 2020-05-05 18:49:57
@@ -15,7 +23,7 @@
 #include <string>
 using namespace std;
 
-class Solution1 {
+class Solution {
    public:
     string no_redup(string str) {
         if (str.size() < 1) return "";
