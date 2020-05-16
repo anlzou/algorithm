@@ -2,7 +2,7 @@
  * @Date        : 2020-05-03 21:18:46
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-16 11:56:33
+ * @LastEditTime: 2020-05-16 12:00:31
  * @FilePath    : \algorithm\problems\L0002_addTwoNumbers.md
  * @Describe    : 
  -->
@@ -46,7 +46,7 @@ Explanation: 342 + 465 = 807.
 ## 代码
 #1 [L0002_addTwoNumbers.cpp](../code/L0002_addTwoNumbers.cpp)
 
-#3 [L0002_addTwoNumbers.js](../code/L0002_addTwoNumbers.js)
+#2 [L0002_addTwoNumbers.js](../code/L0002_addTwoNumbers.js)
 
 ## 复杂度分析
 
@@ -61,4 +61,4 @@ Explanation: 342 + 465 = 807.
 2. 将两个链表第一个节点以后的链表做带进位的递归相加
 3. 将第一步得到的头节点的next指向第二步返回的链表
 ## 实现
-[L0002_addTwoNumbers_recursion.cpp](../code/L0002_addTwoNumbers_recursion.cpp)
+#1 [L0002_addTwoNumbers.cpp](../code/L0002_addTwoNumbers.cpp)
