@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-16 12:17:38
+ * @LastEditTime: 2020-05-16 12:24:24
  * @FilePath    : \algorithm\problems\L0003_LongestSubstringWithoutRepeatingCharacters.md
  * @Describe    : 
  -->
@@ -54,7 +54,7 @@
 - 用 res 去记录目前位置最大的长度，每次滑动窗口更新就去决定是否需要更新 res
 
 ## 代码
-#1 [L0003_LongestSubstringWithoutRepeatingCharacters.cpp](../code/L0003_LongestSubstringWithoutRepeatingCharacters.cpp)
+#1 [L0003_lengthOfLongestSubstring.cpp](../code/L0003_lengthOfLongestSubstring.cpp)
 
 #2 [L0003_LongestSubstringWithoutRepeatingCharacters.js](../code/L0003_LongestSubstringWithoutRepeatingCharacters.js)
 
