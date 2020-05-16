@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-15 10:30:58
+ * @LastEditTime: 2020-05-16 11:38:35
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -20,6 +20,8 @@
 [L0004_MedianOf2SortedArrays](./problems/L0004_MedianOf2SortedArrays.md)
 
 [L0005_longest-palindromic-substring](./problems/L0005_longest-palindromic-substring.md)
+
+[L0006_zigzag-conversion](./problems/L0006_zigzag-conversion.md)
 
 #### myself
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
