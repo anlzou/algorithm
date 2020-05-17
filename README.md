@@ -2,15 +2,15 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-16 11:38:35
+ * @LastEditTime: 2020-05-17 09:02:11
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
 # daily-algorithm
 
-### 目录
+## 目录
 
-#### leetcode  
+### *[leetcode](https://leetcode-cn.com/problems/)*
 [L0001_TwoSum](./problems/L0001_TwoSum.md)
 
 [L0002_addTwoNumbers](./problems/L0002_addTwoNumbers.md)
@@ -23,7 +23,7 @@
 
 [L0006_zigzag-conversion](./problems/L0006_zigzag-conversion.md)
 
-#### myself
+### *myself*
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
 
 [M0002_ArrGetM2Comb](./problems/M0002_ArrGetM2Comb.md)
@@ -37,7 +37,7 @@
 [M0006_SleepSort](./problems/M0006_SleepSort.md)
 
 --------------
-### 算法参考地址：
+## 算法参考地址：
 >[leetcode](https://github.com/wind-liang/leetcode)
 >>leetcode 顺序刷题，详细通俗题解，with JAVA https://leetcode.wang
 
@@ -53,7 +53,7 @@
 >[TheAlgorithms](https://github.com/TheAlgorithms)
 >>Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language
 
-### 其它：
+## 其它：
 >[CS-Notes](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 >>  ✏️ 算法
 >>>[剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)     
