@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-17 09:02:11
+ * @LastEditTime: 2020-05-17 10:11:36
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -22,6 +22,8 @@
 [L0005_longest-palindromic-substring](./problems/L0005_longest-palindromic-substring.md)
 
 [L0006_zigzag-conversion](./problems/L0006_zigzag-conversion.md)
+
+[L0007_reverse-integer](./problems/L0007_reverse-integer.md)
 
 ### *myself*
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
