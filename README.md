@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-17 10:11:36
+ * @LastEditTime: 2020-05-18 09:04:57
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -24,6 +24,10 @@
 [L0006_zigzag-conversion](./problems/L0006_zigzag-conversion.md)
 
 [L0007_reverse-integer](./problems/L0007_reverse-integer.md)
+
+### *[nowcoder](https://www.nowcoder.com/ta/coding-interviews)*
+[数组中重复的数字](./problems/N0003_duplicate-numbers-in-array.md)
+
 
 ### *myself*
 [M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
