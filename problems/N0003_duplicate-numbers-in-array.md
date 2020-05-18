@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-18 09:04:22
+ * @LastEditTime: 2020-05-18 09:10:16
  * @FilePath    : \algorithm\problems\N0003_duplicate-numbers-in-array.md
  * @Describe    : 
  -->
@@ -14,7 +14,9 @@
 
 问题：
 ```
-在一个长度为 n 的数组里的所有数字都在 0 到 n-1 的范围内。数组中某些数字是重复的，但不知道有几个数字是重复的，也不知道每个数字重复几次。请找出数组中任意一个重复的数字。
+在一个长度为 n 的数组里的所有数字都在 0 到 n-1 的范围内。
+数组中某些数字是重复的，但不知道有几个数字是重复的，也不知道每个数字重复几次。
+请找出数组中任意一个重复的数字。
 ```
 示例：
 ```
@@ -36,7 +38,7 @@ Output:
 - 空间复杂度 O(1)，不能使用额外的标记数组
 
 ## 代码
-[N0003_DuplicateNumbersInArray.java](./code/../../code/N0003_DuplicateNumbersInArray.java)
+[N0003_DuplicateNumbersInArray.java](./../code/N0003_DuplicateNumbersInArray.java)
 
 ## 复杂度分析
 
