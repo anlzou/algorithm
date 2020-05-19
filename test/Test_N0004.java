@@ -2,7 +2,7 @@
  * @Date        : 2020-05-06 09:44:28
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-19 16:50:56
+ * @LastEditTime: 2020-05-19 17:00:48
  * @FilePath    : \algorithm\test\Test_N0004.java
  * @Describe    : 
  */
@@ -13,7 +13,6 @@ import java.util.Scanner;
 import code.*;
 
 public class Test_N0004 {
-    public static int[][] a = new int[20][20];
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
