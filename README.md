@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-18 09:04:57
+ * @LastEditTime: 2020-05-19 16:56:00
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -27,6 +27,8 @@
 
 ### *[nowcoder](https://www.nowcoder.com/ta/coding-interviews)*
 [数组中重复的数字](./problems/N0003_duplicate-numbers-in-array.md)
+
+[规律二维数组中的查找](./problems/N0004_finding-in-2D-array.md)
 
 
 ### *myself*
