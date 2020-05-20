@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-19 16:56:00
+ * @LastEditTime: 2020-05-20 11:37:24
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -29,6 +29,8 @@
 [数组中重复的数字](./problems/N0003_duplicate-numbers-in-array.md)
 
 [规律二维数组中的查找](./problems/N0004_finding-in-2D-array.md)
+
+[把空格替换成 "%20"](./problems/N0005_replace-space.md)
 
 
 ### *myself*
