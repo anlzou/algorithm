@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-20 11:37:24
+ * @LastEditTime: 2020-05-20 15:23:53
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -31,6 +31,8 @@
 [规律二维数组中的查找](./problems/N0004_finding-in-2D-array.md)
 
 [把空格替换成 "%20"](./problems/N0005_replace-space.md)
+
+[从尾到头打印链表](./problems/N0006_return-LinkedList-from-z-to-a.md)
 
 
 ### *myself*
