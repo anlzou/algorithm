@@ -2,13 +2,13 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-20 11:36:10
+ * @LastEditTime: 2020-05-20 11:39:08
  * @FilePath    : \algorithm\problems\N0005_replace-space.md
  * @Describe    : 
  -->
 ## 题目地址
 
-[leetcode](https://leetcode-cn.com/problemset/all/)
+[nowcoder](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 ## 题目描述
 
