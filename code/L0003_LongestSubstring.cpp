@@ -2,16 +2,7 @@
  * @Date        : 2020-05-05 18:49:57
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-16 12:06:50
- * @FilePath    : \algorithm\code\L0003_LongestSubstring.cpp
- * @Describe    :
- */
-
-/***
- * @Date        : 2020-05-05 18:49:57
- * @LastEditors : anlzou
- * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-05 19:56:04
+ * @LastEditTime: 2020-05-21 16:34:08
  * @FilePath    : \algorithm\code\L0003_LongestSubstring.cpp
  * @Describe    :
  */

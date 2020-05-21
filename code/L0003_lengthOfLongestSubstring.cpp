@@ -1,3 +1,11 @@
+/***
+ * @Date        : 2020-05-04 21:50:53
+ * @LastEditors : anlzou
+ * @Github      : https://github.com/anlzou
+ * @LastEditTime: 2020-05-21 16:42:22
+ * @FilePath    : \algorithm\code\L0003_lengthOfLongestSubstring.cpp
+ * @Describe    :
+ */
 #include <math.h>
 #include <stdio.h>
 
@@ -29,7 +37,3 @@ class L0003_lengthOfLongestSubstring {
         return res;
     }
 };
-
-// class Solution {
-
-// };
