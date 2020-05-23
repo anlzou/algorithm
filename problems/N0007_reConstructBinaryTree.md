@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-23 20:45:08
+ * @LastEditTime: 2020-05-23 20:51:36
  * @FilePath    : \algorithm\problems\N0007_reConstructBinaryTree.md
  * @Describe    : 
  -->
@@ -24,7 +24,7 @@
 ```java
 /**
  * 由先序和中序遍历序列构造二叉树
- * n:二叉树共有个节点
+ * n:二叉树共有n个节点
  */
 BTNode *createBTbyPreAndIn(char *pre, char *in, int n) {
     BTNode *b;
