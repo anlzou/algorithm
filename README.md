@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-20 15:23:53
+ * @LastEditTime: 2020-05-23 20:48:55
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -33,6 +33,8 @@
 [把空格替换成 "%20"](./problems/N0005_replace-space.md)
 
 [从尾到头打印链表](./problems/N0006_return-LinkedList-from-z-to-a.md)
+
+[重建二叉树](./problems/N0007_reConstructBinaryTree.md)
 
 
 ### *myself*
