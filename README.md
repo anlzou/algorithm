@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-24 16:01:02
+ * @LastEditTime: 2020-05-24 16:04:27
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -36,7 +36,7 @@
 
 [重建二叉树](./problems/N0007_reConstructBinaryTree.md)
 
-[二叉树中序遍历顺序的下一个结点](./problems/N0008_GetBinaryTreeNextNode.md)
+[中序遍历二叉树的下一个结点](./problems/N0008_GetBinaryTreeNextNode.md)
 
 
 ### *myself*

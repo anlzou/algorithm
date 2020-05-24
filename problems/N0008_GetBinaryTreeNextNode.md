@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-24 15:59:12
+ * @LastEditTime: 2020-05-24 16:05:15
  * @FilePath    : \algorithm\problems\N0008_GetBinaryTreeNextNode.md
  * @Describe    : 
  -->
@@ -14,7 +14,8 @@
 
 问题：
 ```
-给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。
+给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。
+注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。
 ```
 返回结点：
 ```java
