@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-23 20:48:55
+ * @LastEditTime: 2020-05-24 16:01:02
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -35,6 +35,8 @@
 [从尾到头打印链表](./problems/N0006_return-LinkedList-from-z-to-a.md)
 
 [重建二叉树](./problems/N0007_reConstructBinaryTree.md)
+
+[二叉树中序遍历顺序的下一个结点](./problems/N0008_GetBinaryTreeNextNode.md)
 
 
 ### *myself*
