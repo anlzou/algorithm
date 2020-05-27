@@ -2,7 +2,7 @@
  * @Date        : 2020-05-27 09:04:46
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 09:08:42
+ * @LastEditTime: 2020-05-27 10:47:45
  * @FilePath    : \algorithm\code\N0009_Using2stacks2implement.java
  * @Describe    : 
  */
@@ -19,7 +19,7 @@ public class N0009_Using2stacks2implement {
         in.push(node);
     }
 
-    // 对 out 栈进行出栈
+    // 对 out 栈进行入栈和出栈
     public int pop() throws Exception {
         if (out.isEmpty())
             while (!in.isEmpty())
@@ -28,6 +28,6 @@ public class N0009_Using2stacks2implement {
         if (out.isEmpty())
             throw new Exception("queue is empty");
 
-        return out.pop();
+        return out.pop();// 弹出栈顶的元素，函数外需要多次调用pop()函数
     }
 }

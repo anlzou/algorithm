@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 09:04:23
+ * @LastEditTime: 2020-05-27 10:34:16
  * @FilePath    : \algorithm\problems\N0009_Using2stacks2implementQueues.md
  * @Describe    : 
  -->
@@ -22,10 +22,13 @@ in 栈用来处理入栈（push）操作，out 栈用来处理出栈（pop）操
 
 ## 关键点
 - Stack：后进先出，拟物为杯子
+  - [java stack的详细实现分析](https://blog.csdn.net/qq_35124535/article/details/71487479?utm_medium=distribute.pc_relevant.none-task-blog-baidujs-2)
+  - [anlzou / data-structure / 栈的基本操作](https://github.com/anlzou/data-structure/blob/master/chapters/chapter03-stacks-and-queues/test-1.md)
 - Queues：先进先出，拟物为管道
 
-## 代码
 
+## 代码
+[N0009_Using2stacks2implement.java](../code/N0009_Using2stacks2implement.java)
 
 ## 复杂度分析
 
