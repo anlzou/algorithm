@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 10:51:14
+ * @LastEditTime: 2020-05-27 10:59:25
  * @FilePath    : \algorithm\problems\N0009_Using2stacks2implementQueues.md
  * @Describe    : 
  -->
@@ -28,7 +28,7 @@ in 栈用来处理入栈（push）操作，out 栈用来处理出栈（pop）操
 
 
 ## 代码
-[N0009_Using2stacks2implement.java](../code/N0009_Using2stacks2implement.java)
+[N0009_Using2stacks2implementQueues.java](../code/N0009_Using2stacks2implementQueues.java)
 
 [Test_N0009.java](../test/Test_N0009.java)
 

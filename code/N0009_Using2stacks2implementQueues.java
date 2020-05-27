@@ -2,15 +2,15 @@
  * @Date        : 2020-05-27 09:04:46
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-27 10:47:45
- * @FilePath    : \algorithm\code\N0009_Using2stacks2implement.java
+ * @LastEditTime: 2020-05-27 10:58:24
+ * @FilePath    : \algorithm\code\N0009_Using2stacks2implementQueues.java
  * @Describe    : 
  */
 package code;
 
 import java.util.Stack;
 
-public class N0009_Using2stacks2implement {
+public class N0009_Using2stacks2implementQueues {
     Stack<Integer> in = new Stack<Integer>();
     Stack<Integer> out = new Stack<Integer>();
 
