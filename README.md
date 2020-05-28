@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 23:51:34
+ * @LastEditTime: 2020-05-28 23:55:49
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -11,13 +11,13 @@
 ## 目录
 
 ### *[leetcode](https://leetcode-cn.com/problems/)*
-[L0001_TwoSum](./problems/L0001_TwoSum.md)
+[L0001_two-sum](./problems/L0001_TwoSum.md)
 
-[L0002_addTwoNumbers](./problems/L0002_addTwoNumbers.md)
+[L0002_add-2-numbers](./problems/L0002_addTwoNumbers.md)
 
-[L0003_LongestSubstringWithoutRepeatingCharacters](./problems/L0003_LongestSubstringWithoutRepeatingCharacters.md)
+[L0003_Longest-substring-without-repeating-characters](./problems/L0003_LongestSubstringWithoutRepeatingCharacters.md)
 
-[L0004_MedianOf2SortedArrays](./problems/L0004_MedianOf2SortedArrays.md)
+[L0004_medianOf-2-sorted-arrays](./problems/L0004_MedianOf2SortedArrays.md)
 
 [L0005_longest-palindromic-substring](./problems/L0005_longest-palindromic-substring.md)
 
