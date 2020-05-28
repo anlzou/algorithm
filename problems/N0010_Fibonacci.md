@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 19:16:52
+ * @LastEditTime: 2020-05-28 22:35:25
  * @FilePath    : \algorithm\problems\N0010_Fibonacci.md
  * @Describe    : 
  -->
@@ -20,11 +20,7 @@ n<=39
 ```
 
 ## 思路
-#1
-
 使用递归方法，效率低
-
-#2
 
 使用动态规划法，效率高
 
@@ -43,9 +39,12 @@ n<=39
 ## 代码
 #1、2、3
 - [N0010_Fibonacci.java](../code/N0010_Fibonacci.java)
+- [Test_N0010.java](./../test/Test_N0010.java)
 
 ## 补充
-- [动态规划法](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter08-dynamic-programming/test8-1.md)
+[动态规划法](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter08-dynamic-programming/test8-1.md)
+
+#3 [java 内部类](https://www.runoob.com/w3cnote/java-inner-class-intro.html)
 ## 复杂度分析
 
 - 时间复杂度：O( )

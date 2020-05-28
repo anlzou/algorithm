@@ -2,7 +2,7 @@
  * @Date        : 2020-05-28 09:35:00
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 19:18:11
+ * @LastEditTime: 2020-05-28 22:33:16
  * @FilePath    : \algorithm\code\N0010_Fibonacci.java
  * @Describe    : 
  */
@@ -56,10 +56,4 @@ public class N0010_Fibonacci {
         }
     }
 
-    public static void main(String[] args) {
-        N0010_Fibonacci test = new N0010_Fibonacci();
-        int ans;
-        ans = test.Fibonacci(3);
-        System.out.println(ans);
-    }
 }
