@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 23:39:02
+ * @LastEditTime: 2020-05-28 23:51:34
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -44,11 +44,11 @@
 
 
 ### *myself*
-[M0001_ArrSearchingArr](./problems/M0001_ArrSearchingArr.md)
+[判断数组 a 是否全包含数组 b ](./problems/M0001_ArrSearchingArr.md)
 
-[M0002_ArrGetM2Comb](./problems/M0002_ArrGetM2Comb.md)
+[数组中取 m 个元素的组合](./problems/M0002_ArrGetM2Comb.md)
 
-[M0003_Combination](./problems/M0003_Combination.md)
+[1-n 中取 m 个元素的组合](./problems/M0003_Combination.md)
 
 [Knuth 洗牌算法](./problems/M0004_Knuth.md)
 
