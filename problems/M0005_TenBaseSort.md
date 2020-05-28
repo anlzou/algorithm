@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-14 14:28:28
+ * @LastEditTime: 2020-05-28 23:43:30
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -80,6 +80,9 @@
 
 > #### 代码
 - [BubbleSort.java](../code/M0005_TenBaseSort/BubbleSort.java)
+
+> #### 其他相似算法
+- [鸡尾酒排序Cocktail Sort （双向冒泡排序）](./M0007_CocktailSort.md)
 
 ### #2 选择排序
 选择排序是一种简单直观的排序算法，无论什么数据进去都是 O(n²) 的时间复杂度。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。
