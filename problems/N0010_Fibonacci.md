@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 09:45:44
+ * @LastEditTime: 2020-05-28 19:16:52
  * @FilePath    : \algorithm\problems\N0010_Fibonacci.md
  * @Describe    : 
  -->
@@ -29,13 +29,22 @@ n<=39
 使用动态规划法，效率高
 
 ## 关键点
+#1
+
 递归是将一个问题划分成多个子问题求解，动态规划也是如此，但是动态规划会把子问题的解缓存起来，从而避免重复求解子问题。
 
+#2
+
+考虑到第 i 项只与第 i-1 和第 i-2 项有关，因此只需要存储前两项的值就能求解第 i 项，从而将空间复杂度由 O(N) 降低为 O(1)。
+
+#3
+
+由于待求解的 n 小于 40，因此可以将前 40 项的结果先进行计算，之后就能以 O(1) 时间复杂度得到第 n 项的值。
 ## 代码
-#1
+#1、2、3
 - [N0010_Fibonacci.java](../code/N0010_Fibonacci.java)
 
-#2
+## 补充
 - [动态规划法](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter08-dynamic-programming/test8-1.md)
 ## 复杂度分析
 
