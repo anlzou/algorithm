@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 09:46:19
+ * @LastEditTime: 2020-05-28 23:39:02
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -50,11 +50,13 @@
 
 [M0003_Combination](./problems/M0003_Combination.md)
 
-[M0004_Knuth](./problems/M0004_Knuth.md)
+[Knuth 洗牌算法](./problems/M0004_Knuth.md)
 
-[M0005_TenBaseSort](./problems/M0005_TenBaseSort.md)
+[十大经典排序算法](./problems/M0005_TenBaseSort.md)
 
-[M0006_SleepSort](./problems/M0006_SleepSort.md)
+[睡眠排序](./problems/M0006_SleepSort.md)
+
+[鸡尾酒排序Cocktail Sort （双向冒泡排序）](./problems/M0007_CocktailSort.md)
 
 --------------
 ## 算法参考地址：
