@@ -2,13 +2,13 @@
  * @Date        : 2020-05-29 09:25:05
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 09:28:51
- * @FilePath    : \algorithm\code\M0008_M0008_GnomeSort.java
+ * @LastEditTime: 2020-05-29 15:20:30
+ * @FilePath    : \algorithm\code\M0008_GnomeSort.java
  * @Describe    : 
  */
 package code;
 
-public class M0008_M0008_GnomeSort {
+public class M0008_GnomeSort {
     void gnomeSort(int[] arr) {
         int i = 0;
         while (i < arr.length) {
@@ -24,7 +24,7 @@ public class M0008_M0008_GnomeSort {
     }
 
     public static void main(String[] args) {
-        M0008_M0008_GnomeSort test = new M0008_M0008_GnomeSort();
+        M0008_GnomeSort test = new M0008_GnomeSort();
         int arr[] = { 3, 2, 4, 5, 6, 1 };
         test.gnomeSort(arr);
         for (int i = 0; i < arr.length; i++) {

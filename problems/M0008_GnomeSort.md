@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 09:34:37
+ * @LastEditTime: 2020-05-29 15:20:50
  * @FilePath    : \algorithm\problems\M0008_GnomeSort.md
  * @Describe    : 
  -->
@@ -27,7 +27,7 @@
 - 交换
 
 ## 代码
-- [M0008_M0008_GnomeSort.java](../code/M0008_M0008_GnomeSort.java)
+- [M0008_GnomeSort.java](../code/M0008_GnomeSort.java)
 
 ## 复杂度分析
 
