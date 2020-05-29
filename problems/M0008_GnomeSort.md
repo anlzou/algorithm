@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 09:31:45
+ * @LastEditTime: 2020-05-29 09:34:37
  * @FilePath    : \algorithm\problems\M0008_GnomeSort.md
  * @Describe    : 
  -->
@@ -18,10 +18,13 @@
 ```
 
 ## 思路
-只有一层循环，循环过程进行回退，排序过程从左到右，一旦遇到交换的情况发生就往回退一步再比较。
+- 只有一层循环，循环过程进行回退，排序过程从左到右，一旦遇到交换的情况发生就往回退一步再比较。
 
-## 其他思路
-[经典排序算法 - 地精排序Gnome Sort](https://www.cnblogs.com/kkun/archive/2011/11/23/2260296.html)
+- [其他思路](https://www.cnblogs.com/kkun/archive/2011/11/23/2260296.html)
+
+## 关键点
+- 回退
+- 交换
 
 ## 代码
 - [M0008_M0008_GnomeSort.java](../code/M0008_M0008_GnomeSort.java)
