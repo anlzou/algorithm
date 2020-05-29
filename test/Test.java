@@ -2,10 +2,11 @@
  * @Date : 2020-05-29 08:43:48
  * @LastEditors : anlzou
  * @Github : https://github.com/anlzou
- * @LastEditTime: 2020-05-29 09:05:25
- * @FilePath : \algorithm\test\Test.java
+ * @LastEditTime: 2020-05-29 09:08:30
+ * @FilePath    : \algorithm\test\Test.java
  * @Describe :
  */
+package test;
 
 public class Test {
     public static void ShellSort(int arr[]) {
