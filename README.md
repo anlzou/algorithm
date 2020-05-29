@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 23:57:14
+ * @LastEditTime: 2020-05-29 09:30:42
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -57,6 +57,8 @@
 [睡眠排序](./problems/M0006_SleepSort.md)
 
 [鸡尾酒排序Cocktail Sort （双向冒泡排序）](./problems/M0007_CocktailSort.md)
+
+[地精排序Gnome Sort](./prble/../problems/M0008_GnomeSort.md)
 
 --------------
 ## 算法参考地址：
