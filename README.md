@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-30 14:28:44
+ * @LastEditTime: 2020-05-30 14:54:22
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -43,6 +43,8 @@
 [斐波那契数列](./problems/N0010_Fibonacci.md)
 
 [矩形覆盖/跳台阶](./problems/N0011_RectangleCover.md)
+
+[变态跳台阶](./problems/N0012_JumpFloorPlus.md)
 
 
 ### *myself*
