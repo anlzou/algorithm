@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-30 14:02:39
+ * @LastEditTime: 2020-05-30 14:28:21
  * @FilePath    : \algorithm\problems\N0011_RectangleCover.md
  * @Describe    : 
  -->
@@ -44,6 +44,11 @@ f(n) =  |              2    n = 2
 
 ## 代码
 - [N0011_RectangleCover.java](../code/N0011_RectangleCover.java)
+
+## 相似问题
+一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法（先后次序不同算不同的结果）。
+
+同解。
 
 ## 复杂度分析
 
