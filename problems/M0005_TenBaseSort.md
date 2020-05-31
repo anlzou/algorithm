@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-28 23:43:30
+ * @LastEditTime: 2020-05-31 21:52:55
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -193,6 +193,7 @@ Shell Sort 存在争议。
 
 > #### 代码
 - [QuickSort.py](../code/M0005_TenBaseSort/QuickSort.py)
+- [c++](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter03-divide-and-conquer/test8-2.md)
 
 ### #7 堆排序
 堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。堆排序可以说是一种利用堆的概念来排序的选择排序。分为两种方法：
