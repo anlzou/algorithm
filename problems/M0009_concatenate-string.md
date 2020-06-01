@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-02 00:03:00
+ * @LastEditTime: 2020-06-02 00:04:20
  * @FilePath    : \algorithm\problems\M0009_concatenate-string.md
  * @Describe    : 
  -->
@@ -37,10 +37,10 @@ output_file = fopen( string, "w" );
 ```
 
 ## 关键点
-
+- 变量大小
 
 ## 代码
-
+- [M0009_ConcatenateString.c](../code/M0009_ConcatenateString.c)
 
 ## 复杂度分析
 
