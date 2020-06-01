@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-31 21:52:55
+ * @LastEditTime: 2020-06-01 23:35:14
  * @FilePath    : \algorithm\problems\M0005_TenBaseSort.md
  * @Describe    : 
  -->
@@ -169,6 +169,7 @@ Shell Sort 存在争议。
 
 > #### 代码
 - [MergeSort.java](../code/M0005_TenBaseSort/MergeSort.java)
+- [algorithm-design-and-analysis / c++](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter03-divide-and-conquer/test8-2.md)
 
 ### #6 快速排序
 快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序 n 个项目要 Ο(nlogn) 次比较。在最坏状况下则需要 Ο(n2) 次比较，但这种状况并不常见。事实上，快速排序通常明显比其他 Ο(nlogn) 算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地被实现出来。
@@ -193,7 +194,7 @@ Shell Sort 存在争议。
 
 > #### 代码
 - [QuickSort.py](../code/M0005_TenBaseSort/QuickSort.py)
-- [c++](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter03-divide-and-conquer/test8-2.md)
+- [algorithm-design-and-analysis / c++](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter03-divide-and-conquer/test8-2.md)
 
 ### #7 堆排序
 堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。堆排序可以说是一种利用堆的概念来排序的选择排序。分为两种方法：
