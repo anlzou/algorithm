@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-30 14:54:22
+ * @LastEditTime: 2020-06-02 00:00:57
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -62,7 +62,9 @@
 
 [鸡尾酒排序Cocktail Sort （双向冒泡排序）](./problems/M0007_CocktailSort.md)
 
-[地精排序Gnome Sort](./prble/../problems/M0008_GnomeSort.md)
+[地精排序Gnome Sort](./problems/M0008_GnomeSort.md)
+
+[C语言动态合并字符串](./problems/M0009_concatenate-string.md)
 
 --------------
 ## 算法参考地址：
