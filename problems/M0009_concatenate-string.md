@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-02 00:04:20
+ * @LastEditTime: 2020-06-02 00:04:42
  * @FilePath    : \algorithm\problems\M0009_concatenate-string.md
  * @Describe    : 
  -->
@@ -44,5 +44,5 @@ output_file = fopen( string, "w" );
 
 ## 复杂度分析
 
-- 时间复杂度：O(N)
+- 时间复杂度：O(1)
 - 空间复杂度：O(N)
