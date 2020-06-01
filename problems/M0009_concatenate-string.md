@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-01 23:50:40
+ * @LastEditTime: 2020-06-02 00:03:00
  * @FilePath    : \algorithm\problems\M0009_concatenate-string.md
  * @Describe    : 
  -->
@@ -17,7 +17,7 @@ C语言中动态拼接变量到字符串中
 ```
 示例：
 ```c++
-"Time is" + char(8) + "a clock."
+"Time is" + string(8) + "a clock."
 ```
 
 ## 思路
