@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-02 00:00:57
+ * @LastEditTime: 2020-06-03 09:40:50
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -45,6 +45,8 @@
 [矩形覆盖/跳台阶](./problems/N0011_RectangleCover.md)
 
 [变态跳台阶](./problems/N0012_JumpFloorPlus.md)
+
+[旋转数组的最小数字](./problems/N0013_minNumberInRotateArray.md)
 
 
 ### *myself*
