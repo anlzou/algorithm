@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-03 09:39:25
+ * @LastEditTime: 2020-06-03 09:48:13
  * @FilePath    : \algorithm\problems\N0013_minNumberInRotateArray.md
  * @Describe    : 
  -->
@@ -38,6 +38,9 @@ NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
 ## 关键点
 - 将问题规模减少了一半
 - 数组是否存在重复的元素
+
+## 补充
+[分治法 / 求解查找问题](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter03-divide-and-conquer/test8-3.md)
 
 ## 代码
 - [N0013_MinNumberInRotateArray.java](../code/N0013_MinNumberInRotateArray.java)
