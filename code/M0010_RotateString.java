@@ -2,7 +2,7 @@
  * @Date : 2020-06-08 15:15:29
  * @LastEditors : anlzou
  * @Github : https://github.com/anlzou
- * @LastEditTime: 2020-06-08 15:34:17
+ * @LastEditTime: 2020-06-08 15:38:51
  * @FilePath    : \algorithm\code\M0010_RotateString.java
  * @Describe :
  */
@@ -66,6 +66,7 @@ public class M0010_RotateString {
         return false;
     }
 
+    /* ======================test===================== */
     public static void main(String[] args) {
         M0010_RotateString test = new M0010_RotateString();
         String A = "abcdef", B = "cdefab";

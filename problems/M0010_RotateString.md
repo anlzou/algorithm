@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-08 15:31:30
+ * @LastEditTime: 2020-06-08 15:38:23
  * @FilePath    : \algorithm\problems\M0010_RotateString.md
  * @Describe    : 
  -->
@@ -56,7 +56,6 @@ s - 搜索的顺序
 
 结果 
 如果此字符串包含 s ，则为true，否则为false 
-
 ```
 
 ## 代码
