@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-10 20:12:58
+ * @LastEditTime: 2020-06-10 20:16:56
  * @FilePath    : \algorithm\problems\N0014_PathInMatrix.md
  * @Describe    : 
  -->
@@ -33,9 +33,10 @@
 
 ## 关键点
 - [algorithm-design-and-analysis / 回溯法概述](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter05-backtracking/test5-1.md)
+- 先将数组转换成矩阵
 
 ## 代码
-
+- [N0014_PathInMatrix.java](../code/N0014_PathInMatrix.java)
 
 ## 复杂度分析
 
