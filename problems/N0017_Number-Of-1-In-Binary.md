@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-14 17:00:22
+ * @LastEditTime: 2020-06-14 17:04:14
  * @FilePath    : \algorithm\problems\N0017_Number-Of-1-In-Binary.md
  * @Describe    : 
  -->
@@ -29,6 +29,7 @@ n&(n-1) : 10110000
 //伪代码
 while(n != 0){
     count++;
+    // n 为以下个值
     n1 = 1011 0000
     n2 = 10 00 0000
     n3 = 00 00 0000
