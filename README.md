@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-12 23:29:18
+ * @LastEditTime: 2020-06-14 15:49:24
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -51,6 +51,8 @@
 [矩阵中的路径](./problems/N0014_PathInMatrix.md)
 
 [机器人的运动范围](./problems/N0015_RangeOfMotionOfRobot.md)
+
+[剪绳子](./problems/N0016_cut-the-rope.md)
 
 
 ### *myself*

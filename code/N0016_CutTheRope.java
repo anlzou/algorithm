@@ -2,7 +2,7 @@
  * @Date        : 2020-06-14 15:19:24
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-14 15:35:11
+ * @LastEditTime: 2020-06-14 16:17:34
  * @FilePath    : \algorithm\code\N0016_CutTheRope.java
  * @Describe    : 
  */
@@ -34,14 +34,18 @@ public class N0016_CutTheRope {
         dp[1] = 1;
         for (int i = 2; i <= n; i++)
             for (int j = 1; j < i; j++)
-                dp[i] = Math.max(dp[i], Math.max(j * (i - j), dp[j] * (i - j)));
+                dp[i] = Math.max(dp[i], Math.max(j * (i - j), dp[j] * (i - j)));//
+
+        // for (int i = 1; i <= n; i++) {
+        // System.out.println(dp[i]);
+        // }
         return dp[n];
     }
 
     /* ==================test================== */
     public static void main(String[] args) {
         int ans1 = 0, ans2 = 0;
-        int n = 10;
+        int n = 6;
         N0016_CutTheRope test = new N0016_CutTheRope();
 
         ans2 = test.integerBreak_Greedy(n);
