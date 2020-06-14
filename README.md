@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-14 15:49:24
+ * @LastEditTime: 2020-06-14 17:01:38
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -54,6 +54,7 @@
 
 [剪绳子](./problems/N0016_cut-the-rope.md)
 
+[二进制中 1 的个数](./problems/N0017_Number-Of-1-In-Binary.md)
 
 ### *myself*
 [判断数组 a 是否全包含数组 b ](./problems/M0001_ArrSearchingArr.md)
