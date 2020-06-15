@@ -2,7 +2,7 @@
  * @Date        : 2020-06-14 16:30:41
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-15 14:50:07
+ * @LastEditTime: 2020-06-15 15:00:43
  * @FilePath    : \algorithm\code\N0017_NumberOf1InBinary.java
  * @Describe    : 
  */
@@ -13,12 +13,12 @@ public class N0017_NumberOf1InBinary {
      * & 运算
      */
     public int NumberOf1_1(int n) {
-        int cnt = 0;
+        int count = 0;
         while (n != 0) {
-            cnt++;
+            count++;
             n &= (n - 1);
         }
-        return cnt;
+        return count;
     }
 
     /**
