@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-15 14:56:44
+ * @LastEditTime: 2020-06-15 14:59:38
  * @FilePath    : \algorithm\problems\N0017_Number-Of-1-In-Binary.md
  * @Describe    : 
  -->
@@ -31,11 +31,15 @@ count = 0;
 while(n != 0){
     count++;
     n &= (n-1);
-    // n 为以下个值
-    n = 10110000
-    n = 10100000
-    n = 10000000
-    n = 00000000
+    /**
+     * n 为以下个值
+     * ************
+     * n = 10110000
+     * n = 10100000
+     * n = 10000000
+     * n = 00000000
+     * ************
+     * */ 
 }
 ```
 
