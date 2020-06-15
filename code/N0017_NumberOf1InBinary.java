@@ -2,7 +2,7 @@
  * @Date        : 2020-06-14 16:30:41
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-14 16:56:14
+ * @LastEditTime: 2020-06-15 14:50:07
  * @FilePath    : \algorithm\code\N0017_NumberOf1InBinary.java
  * @Describe    : 
  */
@@ -32,7 +32,7 @@ public class N0017_NumberOf1InBinary {
     public static void main(String[] args) {
         N0017_NumberOf1InBinary test = new N0017_NumberOf1InBinary();
         int ans1 = 0, ans2 = 0;
-        int n = 24;
+        int n = 180;
 
         ans1 = test.NumberOf1_1(n);
         ans2 = test.NumberOf1_2(n);

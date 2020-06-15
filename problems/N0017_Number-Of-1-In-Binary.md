@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-14 17:04:14
+ * @LastEditTime: 2020-06-15 14:54:55
  * @FilePath    : \algorithm\problems\N0017_Number-Of-1-In-Binary.md
  * @Describe    : 
  -->
@@ -20,19 +20,22 @@
 ## 思路
 #### #1 n&(n-1)
 
-该位运算去除 n 的位级表示中最低的那一位。
+去除 n 的二进制中表示中的最左边的 1。
 ```java
 n       : 10110100  //180
 n-1     : 10110011  //179
 n&(n-1) : 10110000
 
 //伪代码
+count = 0;
 while(n != 0){
     count++;
+    n &= (n-1);
     // n 为以下个值
-    n1 = 1011 0000
-    n2 = 10 00 0000
-    n3 = 00 00 0000
+    n = 10110000
+    n = 10100000
+    n = 10000000
+    n = 00000000
 }
 ```
 
