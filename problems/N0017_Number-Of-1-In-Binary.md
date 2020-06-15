@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-15 14:54:55
+ * @LastEditTime: 2020-06-15 14:56:44
  * @FilePath    : \algorithm\problems\N0017_Number-Of-1-In-Binary.md
  * @Describe    : 
  -->
@@ -60,6 +60,6 @@ i - 要对其位进行计数的值
 - [n&(n-1)的用途](https://www.cnblogs.com/zy230530/p/6645431.html)
 
 ## 复杂度分析
-
+#1
 - 时间复杂度：O(M)，其中 M 表示 1 的个数。
 - 空间复杂度：O(N)
