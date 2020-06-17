@@ -2,11 +2,12 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 21:47:58
+ * @LastEditTime: 2020-06-17 21:50:47
  * @FilePath    : \algorithm\problems\M0011_print1ToMaxOfNDigits.md
  * @Describe    : 
  -->
 ## 题目地址
+[CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes/blob/master/notes/17.%20%E6%89%93%E5%8D%B0%E4%BB%8E%201%20%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84%20n%20%E4%BD%8D%E6%95%B0.md)
 
 ## 题目描述
 
