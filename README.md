@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 20:20:41
+ * @LastEditTime: 2020-06-17 21:49:34
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -78,6 +78,8 @@
 [C语言动态合并字符串](./problems/M0009_concatenate-string.md)
 
 [必须掌握的超高频旋转算法题目！](./problems/M0010_RotateString.md)
+
+[打印从 1 到最大的 n 位数](./problems/M0011_print1ToMaxOfNDigits.md)
 
 --------------
 ## 算法参考地址：
