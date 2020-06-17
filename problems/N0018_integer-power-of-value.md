@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 20:19:26
+ * @LastEditTime: 2020-06-17 20:25:12
  * @FilePath    : \algorithm\problems\N0018_integer-power-of-value.md
  * @Describe    : 
  -->
@@ -20,7 +20,7 @@
 ```
 
 ## 思路
-### 递归快速幂
+#### 递归快速幂
 
 下面的讨论中 x 代表 base，n 代表 exponent。
 ```
@@ -38,4 +38,4 @@ x^^n =  |  (x*x)^^(n/2)   n%2 = 0
 ## 复杂度分析
 
 - 时间复杂度：O(logN)
-- 空间复杂度：O(N)
+- 空间复杂度：O( )
