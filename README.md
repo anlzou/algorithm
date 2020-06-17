@@ -2,84 +2,22 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 21:49:34
+ * @LastEditTime: 2020-06-17 22:11:41
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
 # daily-algorithm
 
-## 目录
+## 解决的问题
 
-### *[leetcode](https://leetcode-cn.com/problems/)*
-[L0001_two-sum](./problems/L0001_TwoSum.md)
+>### *[leetcode](https://leetcode-cn.com/problems/)*
+>>[leetcode.md](./docs/leetcode.md)
 
-[L0002_add-2-numbers](./problems/L0002_addTwoNumbers.md)
+>### *[nowcoder](https://www.nowcoder.com/ta/coding-interviews)*
+>>[nowcoder.md](./docs/nowcoder.md)
 
-[L0003_Longest-substring-without-repeating-characters](./problems/L0003_LongestSubstringWithoutRepeatingCharacters.md)
-
-[L0004_median-of-2-sorted-arrays](./problems/L0004_MedianOf2SortedArrays.md)
-
-[L0005_longest-palindromic-substring](./problems/L0005_longest-palindromic-substring.md)
-
-[L0006_zigzag-conversion](./problems/L0006_zigzag-conversion.md)
-
-[L0007_reverse-integer](./problems/L0007_reverse-integer.md)
-
-### *[nowcoder](https://www.nowcoder.com/ta/coding-interviews)*
-[数组中重复的数字](./problems/N0003_duplicate-numbers-in-array.md)
-
-[规律二维数组中的查找](./problems/N0004_finding-in-2D-array.md)
-
-[把空格替换成 "%20"](./problems/N0005_replace-space.md)
-
-[从尾到头打印链表](./problems/N0006_return-LinkedList-from-z-to-a.md)
-
-[重建二叉树](./problems/N0007_reConstructBinaryTree.md)
-
-[中序遍历二叉树的下一个结点](./problems/N0008_GetBinaryTreeNextNode.md)
-
-[用两个栈实现队列](./problems/N0009_Using2stacks2implementQueues.md)
-
-[斐波那契数列](./problems/N0010_Fibonacci.md)
-
-[矩形覆盖/跳台阶](./problems/N0011_RectangleCover.md)
-
-[变态跳台阶](./problems/N0012_JumpFloorPlus.md)
-
-[旋转数组的最小数字](./problems/N0013_minNumberInRotateArray.md)
-
-[矩阵中的路径](./problems/N0014_PathInMatrix.md)
-
-[机器人的运动范围](./problems/N0015_RangeOfMotionOfRobot.md)
-
-[剪绳子](./problems/N0016_cut-the-rope.md)
-
-[二进制中 1 的个数](./problems/N0017_Number-Of-1-In-Binary.md)
-
-[数值的整数次方](./problems/N0018_integer-power-of-value.md)
-
-### *myself*
-[判断数组 a 是否全包含数组 b ](./problems/M0001_ArrSearchingArr.md)
-
-[数组中取 m 个元素的组合](./problems/M0002_ArrGetM2Comb.md)
-
-[1-n 中取 m 个元素的组合](./problems/M0003_Combination.md)
-
-[Knuth 洗牌算法](./problems/M0004_Knuth.md)
-
-[十大经典排序算法](./problems/M0005_TenBaseSort.md)
-
-[睡眠排序](./problems/M0006_SleepSort.md)
-
-[鸡尾酒排序Cocktail Sort （双向冒泡排序）](./problems/M0007_CocktailSort.md)
-
-[地精排序Gnome Sort](./problems/M0008_GnomeSort.md)
-
-[C语言动态合并字符串](./problems/M0009_concatenate-string.md)
-
-[必须掌握的超高频旋转算法题目！](./problems/M0010_RotateString.md)
-
-[打印从 1 到最大的 n 位数](./problems/M0011_print1ToMaxOfNDigits.md)
+>### *myself*
+>>[myself.md](./docs/myself.md)
 
 --------------
 ## 算法参考地址：
