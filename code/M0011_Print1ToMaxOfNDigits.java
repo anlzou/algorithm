@@ -1,14 +1,14 @@
 /**
- * @Date : 2020-05-29 08:43:48
+ * @Date        : 2020-06-17 21:45:34
  * @LastEditors : anlzou
- * @Github : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 21:41:52
- * @FilePath    : \algorithm\test\Test.java
- * @Describe :
+ * @Github      : https://github.com/anlzou
+ * @LastEditTime: 2020-06-17 21:47:02
+ * @FilePath    : \algorithm\code\M0011_Print1ToMaxOfNDigits.java
+ * @Describe    : 
  */
-package test;
+package code;
 
-public class Test {
+public class M0011_Print1ToMaxOfNDigits {
     public void print1ToMaxOfNDigits(int n) {
         if (n <= 0)
             return;
@@ -41,8 +41,7 @@ public class Test {
 
     public static void main(String[] args) {
         int n = 3;
-        Test test = new Test();
+        M0011_Print1ToMaxOfNDigits test = new M0011_Print1ToMaxOfNDigits();
         test.print1ToMaxOfNDigits(n);
     }
-
 }
