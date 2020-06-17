@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-14 17:01:38
+ * @LastEditTime: 2020-06-17 20:20:41
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -55,6 +55,8 @@
 [剪绳子](./problems/N0016_cut-the-rope.md)
 
 [二进制中 1 的个数](./problems/N0017_Number-Of-1-In-Binary.md)
+
+[数值的整数次方](./problems/N0018_integer-power-of-value.md)
 
 ### *myself*
 [判断数组 a 是否全包含数组 b ](./problems/M0001_ArrSearchingArr.md)
