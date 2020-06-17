@@ -2,19 +2,19 @@
  * @Date        : 2020-05-02 20:16:19
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-06 10:43:34
+ * @LastEditTime: 2020-06-17 22:00:26
  * @FilePath    : \algorithm\problems\L0001_TwoSum.md
  * @Describe    : 
  -->
 ## 题目地址
 
-[https://leetcode-cn.com/problems/two-sum](https://leetcode-cn.com/problems/two-sum)
+[leetcode](https://leetcode-cn.com/problems/two-sum)
 
 ## 题目描述
 
 问题：
 ```
-给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 <b>两个</b> 整数，并返回他们的数组下标。
+给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
 
 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
 ```

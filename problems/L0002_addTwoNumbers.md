@@ -2,13 +2,13 @@
  * @Date        : 2020-05-03 21:18:46
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-05-16 12:00:31
+ * @LastEditTime: 2020-06-17 22:01:19
  * @FilePath    : \algorithm\problems\L0002_addTwoNumbers.md
  * @Describe    : 
  -->
 ## 题目地址
 
-[https://leetcode-cn.com/problems/add-two-numbers/](https://leetcode-cn.com/problems/add-two-numbers/)
+[leetcode](https://leetcode-cn.com/problems/add-two-numbers/)
 
 ## 题目描述
 
@@ -60,5 +60,5 @@ Explanation: 342 + 465 = 807.
 1. 将两个链表的第一个节点值相加，结果转为0-10之间的个位数，并设置进位信息
 2. 将两个链表第一个节点以后的链表做带进位的递归相加
 3. 将第一步得到的头节点的next指向第二步返回的链表
-## 实现
+## 代码
 #1 [L0002_addTwoNumbers.cpp](../code/L0002_addTwoNumbers.cpp)
