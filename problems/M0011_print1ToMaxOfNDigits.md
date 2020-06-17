@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 21:50:47
+ * @LastEditTime: 2020-06-17 21:55:14
  * @FilePath    : \algorithm\problems\M0011_print1ToMaxOfNDigits.md
  * @Describe    : 
  -->
@@ -24,7 +24,7 @@
 由于 n 可能会非常大，因此不能直接用 int 表示数字，而是用 char 数组进行存储。
 
 ## 关键点
-- 回溯法
+- 回溯法 [algorithm-design-and-analysis/chapters/chapter05-backtracking/test5-1.md](https://github.com/anlzou/algorithm-design-and-analysis/blob/master/chapters/chapter05-backtracking/test5-1.md)
 
 ## 代码
 - [M0011_Print1ToMaxOfNDigits.java](../code/M0011_Print1ToMaxOfNDigits.java)
