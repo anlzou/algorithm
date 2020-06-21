@@ -2,7 +2,7 @@
  * @Date        : 2020-06-17 22:05:08
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 22:10:17
+ * @LastEditTime: 2020-06-21 21:28:28
  * @FilePath    : \algorithm\docs\myself.md
  * @Describe    : 
 --> 
@@ -28,3 +28,5 @@
 [必须掌握的超高频旋转算法题目！](../problems/M0010_RotateString.md)
 
 [打印从 1 到最大的 n 位数](../problems/M0011_print1ToMaxOfNDigits.md)
+
+[在 O(1) 时间内删除链表节点](../problems/M0012_delete-ListNode-is-O(1).md)
