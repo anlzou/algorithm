@@ -2,7 +2,7 @@
  * @Date        : 2020-06-17 22:04:50
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 22:08:35
+ * @LastEditTime: 2020-06-23 15:05:51
  * @FilePath    : \algorithm\docs\nowcoder.md
  * @Describe    : 
 --> 
@@ -38,3 +38,5 @@
 [二进制中 1 的个数](../problems/N0017_Number-Of-1-In-Binary.md)
 
 [数值的整数次方](../problems/N0018_integer-power-of-value.md)
+
+[表示数值的字符串](../problems/N0019_isNumeric.md)
