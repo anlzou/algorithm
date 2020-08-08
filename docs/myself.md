@@ -2,7 +2,7 @@
  * @Date        : 2020-06-17 22:05:08
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-21 21:50:43
+ * @LastEditTime: 2020-08-08 16:33:07
  * @FilePath    : \algorithm\docs\myself.md
  * @Describe    : 
 --> 
@@ -32,3 +32,5 @@
 [在 O(1) 时间内删除链表节点](../problems/M0012_delete-ListNode-is-O(1).md)
 
 [删除链表中重复的结点](../problems/M0013_deleteDuplicationListnode.md)
+
+[任意输入内容的首个最长回文段](../problems/M0014_The_first_largest_palindrome_string_in_a_string.md)
