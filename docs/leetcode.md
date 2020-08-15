@@ -2,7 +2,7 @@
  * @Date        : 2020-06-17 22:04:37
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-06-17 22:07:02
+ * @LastEditTime: 2020-08-15 23:29:10
  * @FilePath    : \algorithm\docs\leetcode.md
  * @Describe    : 
 --> 
@@ -20,3 +20,5 @@
 [L0006_zigzag-conversion](../problems/L0006_zigzag-conversion.md)
 
 [L0007_reverse-integer](../problems/L0007_reverse-integer.md)
+
+[L0008_best-time-to-buy-and-sell-stock](../problems/L0008_best-time-to-buy-and-sell-stock.md)
