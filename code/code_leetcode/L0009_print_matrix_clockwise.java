@@ -2,13 +2,9 @@
  * @Date : 2020-10-24 19:11:42
  * @LastEditors : anlzou
  * @Github : https://github.com/anlzou
- * @LastEditTime: 2020-10-24 20:04:46
+ * @LastEditTime: 2020-10-24 20:15:09
  * @FilePath    : \algorithm\code\code_leetcode\L0009_print_matrix_clockwise.java
  * @Describe :
- */
-/**
- * ArrayList和LinkedList在用法上没有区别，但是在功能上还是有区别的。
- * LinkedList经常用在增删操作较多而查询操作很少的情况下，ArrayList则相反。
  */
 package code.code_leetcode;
 
@@ -35,7 +31,6 @@ public class L0009_print_matrix_clockwise {
                 for (int i = column_end - 1; i >= column_begin; i--)
                     /**
                      * { 1:[15,14,13], 2:[10]}
-                     * 
                      */
                     ret.add(matrix[row_end][i]);
             if (column_begin != column_end)
