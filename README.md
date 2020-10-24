@@ -2,7 +2,7 @@
  * @Date        : 2020-05-02 20:11:02
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-08-16 22:19:32
+ * @LastEditTime: 2020-10-24 18:45:49
  * @FilePath    : \algorithm\README.md
  * @Describe    : 
  -->
@@ -45,7 +45,6 @@
 >>>[剑指 Offer 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)     
 >>>[Leetcode 题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)     
 >>[算法](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E7%AE%97%E6%B3%95%20-%20%E7%9B%AE%E5%BD%95.md)      
->>[笔试面试题库](https://www.nowcoder.com/contestRoom?from=cyc_github)
 
 >[javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 >>📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
