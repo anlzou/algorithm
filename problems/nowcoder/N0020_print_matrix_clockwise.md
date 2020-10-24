@@ -2,8 +2,8 @@
  * @Date        : 2020-05-02 20:37:47
  * @LastEditors : anlzou
  * @Github      : https://github.com/anlzou
- * @LastEditTime: 2020-10-24 20:09:54
- * @FilePath    : \algorithm\problems\leetcode\problems.md
+ * @LastEditTime: 2020-10-24 20:33:01
+ * @FilePath    : \algorithm\problems\nowcoder\N0020_print_matrix_clockwise.md
  * @Describe    : 
  -->
 ## 题目地址
@@ -38,7 +38,7 @@ ArrayList和LinkedList在用法上没有区别，但是在功能上还是有区�
 LinkedList经常用在增删操作较多而查询操作很少的情况下，ArrayList则相反。
 
 ## 代码
-- [L0009_print_matrix_clockwise.java](../../code/code_leetcode/L0009_print_matrix_clockwise.java)
+- [L0020_print_matrix_clockwise.java](../../code/code_nowcoder/N0020_print_matrix_clockwise.java)
 
 ## 复杂度分析
 
