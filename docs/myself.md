@@ -34,3 +34,5 @@
 [M0013_删除链表中重复的结点](../problems/M0013_deleteDuplicationListnode.md)
 
 [M0014_任意输入内容的首个最长回文段](../problems/M0014_The_first_largest_palindrome_string_in_a_string.md)
+
+[M0015_使用`Sieve of Eratosthenes`算法求素数](../problems/myself/M0015_how_much_primes.md)
