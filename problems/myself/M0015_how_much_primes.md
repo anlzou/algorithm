@@ -26,6 +26,12 @@ Q:
 A:
 9
 [[2, True], [3, True], [4, False], [5, True], [6, False], [7, True], [8, False], [9, False], [10, False], [11, True], [12, False], [13, True], [14, False], [15, False], [16, False], [17, True], [18, False], [19, True], [20, False], [21, False], [22, False], [23, True], [24, False]]
+
+demo：
+[2,1000000)
+count primes: 78498
+pass time: 0.784867525100708
+last one: [[999999, False]]
 ```
 
 ## 思路
@@ -35,7 +41,7 @@ A:
 零界点sqrt(n)，`i < Sqrt(n)` 等同于 `i*i < n`
 
 ## 代码
--[M0015_how_much_primes.py](../../code/code_myself/M0015_how_much_primes.py)
+- [M0015_how_much_primes.py](../../code/code_myself/M0015_how_much_primes.py)
 
 ## 复杂度分析
 
