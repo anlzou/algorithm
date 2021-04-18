@@ -8,7 +8,7 @@
  -->
 ## 题目地址
 
-[0～n-1中缺失的数字]([que-shi-de-shu-zi-lcof](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china))
+[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/?utm_source=LCUS&utm_medium=ip_redirect&utm_campaign=transfer2china)
 
 ## 题目描述
 
@@ -40,7 +40,7 @@ A.
 
 
 ## 代码
-- [L0009_TheLostNumOnArray.py](../../code/code_leetcode/L0009_TheLostNumOnArray.py)
+- [TheLostNumOnArray.py](../../code/code_leetcode/L0009_TheLostNumOnArray.py)
 
 ## 复杂度分析
 

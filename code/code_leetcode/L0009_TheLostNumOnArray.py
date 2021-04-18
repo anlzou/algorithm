@@ -1,4 +1,3 @@
-
 class Solution:
     '''
         使用二分法求解

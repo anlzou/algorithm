@@ -23,4 +23,4 @@
 
 [L0008_买卖股票的最佳时机](../problems/L0008_best-time-to-buy-and-sell-stock.md)
 
-[0～n-1中缺失的数字](../problems/leetcode/L0009_TheLostNumOnArray.md)
+[L0009_0～n-1中缺失的数字](../problems/leetcode/L0009_TheLostNumOnArray.md)
