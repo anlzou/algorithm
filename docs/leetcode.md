@@ -22,3 +22,5 @@
 [L0007_反转整数](../problems/L0007_reverse-integer.md)
 
 [L0008_买卖股票的最佳时机](../problems/L0008_best-time-to-buy-and-sell-stock.md)
+
+[L0009_0～n-1中缺失的数字](../problems/leetcode/L0009_TheLostNumOnArray.md)
