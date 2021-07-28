@@ -11,6 +11,16 @@
 - [Dijkstra算法详解 通俗易懂](https://zhuanlan.zhihu.com/p/338414118)
 
 ## 题目描述
+```java
+char[] vertices = new char[]{'A','B','C','D'};
+int[][] graph = new int[][]{
+                            {0,  2,  -1, 6},
+                            {2,  0,  3,  2},
+                            {-1, 3,  0,  2},
+                            {6,  2,  2,  0}};
+```
+![M0016](../../resource/img/M0016.jpg)
+
 迪杰斯特拉（Dijkstra） 算法是求一个图中一个点到其他所有点的最短路径的算法，阅读前请想了解图的数据结构「邻接矩阵」。
 
 ## 思路
