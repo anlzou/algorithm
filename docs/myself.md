@@ -36,3 +36,5 @@
 [M0014_任意输入内容的首个最长回文段](../problems/M0014_The_first_largest_palindrome_string_in_a_string.md)
 
 [M0015_使用`Sieve of Eratosthenes`算法求素数](../problems/myself/M0015_how_much_primes.md)
+
+[M0016_Dijkstra_algorithm](../problems/myself/M0016_Dijkstra_algorithm.md)
