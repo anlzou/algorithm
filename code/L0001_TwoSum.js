@@ -22,3 +22,8 @@ const twoSum = function (nums, target) {
         map.set(nums[i], i);
     }
 }
+
+
+// TEST. Node.js v16.13.1
+let arr = [2,3,5,1,7,8,0];
+console.log(twoSum(arr, 9))

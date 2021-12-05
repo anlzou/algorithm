@@ -1,3 +1,5 @@
+package code.code_myself;
+
 public class M0016_Dijkstra_algorithm {
     public static int[] dijkstra(int[][] graph,int startVertex){
         
@@ -80,8 +82,12 @@ public class M0016_Dijkstra_algorithm {
 
 
         int[] dijkstra = dijkstra(graph, 0);
-        for (int i : dijkstra) {
-            System.out.println(i);
+        // for (int i : dijkstra) {
+        //     System.out.println(i);
+        // }
+
+        for (int i = 0; i < dijkstra.length; i++) {
+            System.out.println("A2" + vertices[i] + " bast path length is : " + dijkstra[i]);
         }
     }
 }
